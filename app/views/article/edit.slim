@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title markdown editor
+  body
+  div.aricle_id="#{params[:id]}"
+  div.editor
+    div.editor--body
+      div.editor--markdown
+        div.editor--textbox
+          textarea.editor--text autocorrect="off"autocapitalize="off"spellcheck="false"tabindex="0" cols="40"
+      div.editor--preview
+        div.editor--preview--box
+      div.clearBoth
